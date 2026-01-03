@@ -42,9 +42,7 @@ Houses code and outputs related to training the 2D U-Net model.
 - **NOTEBOOKS**: Notebooks used for training and analyzing model performance.
 
 
-## Folder Descriptions
-
-### 1. 3D U-NET APPROACH
+### 2. 3D U-NET APPROACH
 This is the root directory of the project containing all data for 3D U-NET approach.
 
 
