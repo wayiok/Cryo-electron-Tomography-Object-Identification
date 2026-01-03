@@ -5,39 +5,38 @@ This document describes the structure and purpose of the directories and files i
 
 ## Project Structure
 
+```text
 2D U-NET APPROACH/
 ├── 1 - source data/
 │   ├── 1 - original dataset/
 │   ├── 2 - yolo dataset/
 │   └── file4.txt
 ├── 2 - data processing code/
-│   ├── preprocessing notebook
-├── 3 - Training code/
-│   ├── MODELS result of training
-│   ├── Notebooks of training
+│   └── preprocessing notebook
+└── 3 - training code/
+    ├── models result of training/
+    └── notebooks of training/
 
 3D U-NET APPROACH/
-├── Notebooks of training
+└── notebooks of training/
 
 REPORT
-
-
-
+```
 
 ## Folder Descriptions
 
-### 1. 2D U-NET APPROACH/
+### 1. 2D U-NET APPROACH
 This is the root directory of the project containing all data for YOLO11 approach.
 
-#### a. 1 - SOURCE DATA/
+#### a. 1 - SOURCE DATA
 Contains raw and preprocessed datasets used in the project.
-- **1 - ORIGINAL DATASET/**: Includes the unaltered, original dataset.
-- **2 - YOLO DATASET/**: Contains datasets formatted or processed for YOLO models.
+- **1 - ORIGINAL DATASET**: Includes the unaltered, original dataset.
+- **2 - YOLO DATASET**: Contains datasets formatted or processed for YOLO models.
 
-#### b. 2 - DATA PROCESSING CODE/
+#### b. 2 - DATA PROCESSING CODE
 Includes jupyter notebook for data preprocessing.
 
-#### c. 3 - TRAINING CODE/
+#### c. 3 - TRAINING CODE
 Houses code and outputs related to training the 2D U-Net model.
 - **MODELS result of training**: Trained models and their checkpoints.
 - **NOTEBOOKS**: Notebooks used for training and analyzing model performance.
@@ -45,7 +44,7 @@ Houses code and outputs related to training the 2D U-Net model.
 
 ## Folder Descriptions
 
-### 1. 3D U-NET APPROACH/
+### 1. 3D U-NET APPROACH
 This is the root directory of the project containing all data for 3D U-NET approach.
 
 
