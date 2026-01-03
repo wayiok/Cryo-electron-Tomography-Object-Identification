@@ -1,0 +1,13 @@
+
+path: gdrive/My Drive/MLDM - Deep Learning/CRYOET PROJECT - DEEP LEARNING/2D U-NET APPROACH/1 - SOURCE DATA/2 - YOLO DATASET/ # dataset root dir
+train: images/train
+val: images/val
+
+# Classes
+names:
+  0: apo-ferritin
+  1: beta-amylase
+  2: beta-galactosidase
+  3: ribosome
+  4: thyroglobulin
+  5: virus-like-particle
