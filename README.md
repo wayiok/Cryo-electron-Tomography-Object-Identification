@@ -6,7 +6,7 @@ This document describes the structure and purpose of the directories and files i
 ## Project Structure
 
 ```text
-2D U-NET APPROACH/
+2D APPROACH/
 ├── 1 - source data/
 │   ├── 1 - original dataset/
 │   ├── 2 - yolo dataset/
@@ -25,7 +25,7 @@ REPORT
 
 ## Folder Descriptions
 
-### 1. 2D U-NET APPROACH
+### 1. 2D APPROACH
 This is the root directory of the project containing all data for YOLO11 approach.
 
 #### a. 1 - SOURCE DATA
